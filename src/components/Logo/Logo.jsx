@@ -1,12 +1,11 @@
 import './Logo.css'
 
-export default function Logo({cor, src}){
-  return(
-    <div className='box-logo'>
-      <a href="">
-          <img src={src}/>
+export const Logo = ({color, margin}) => {
+  return (
+      <a style={{ margin:margin}} className='logo' href="">
+        <img src={!color ? "../../../public/logoPink.svg" 
+          : "../../../public/logo-White.svg"}/>
+        <span style={{color:color}}>Drip Store</span>
       </a>
-      <h1 style={{color:cor}}>Drip Store</h1>
-    </div>
   );
 }

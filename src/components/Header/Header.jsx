@@ -4,6 +4,7 @@ import { Button } from '../Button/Button';
 import { ShopCart } from '../ShopCart/ShopCart';
 import { Input } from '../Input/Input';
 import { Useful } from '../Useful/Useful';
+import { Nav } from '../Nav/Nav';
 
 
 export const Header = () => {
@@ -27,6 +28,42 @@ export const Header = () => {
             href={'#'}
             textDecoration={'underline'}
            />
+           <Nav
+            position={'absolute'}
+            top={'8.375rem'}
+            gap={'2rem'}
+            width={'26.438rem'}
+            height={'1.813rem'}
+           >
+           <li>
+            <Useful 
+            value={'Início'}
+            color={'#666666'}
+            to={'/'}
+            />
+            </li>
+            <li>
+            <Useful 
+            value={'Produtos'}
+            color={'#666666'}
+            to={'/produtos'}
+            />
+            </li>
+            <li>
+            <Useful 
+            value={'Meus pedidos'}
+            color={'#666666'}
+            to={'/pedidos'}
+            />
+            </li>
+            <li>
+            <Useful 
+            value={'Ofertas'}
+            color={'#666666'}
+            to={'/ofertas'}
+            />
+            </li>
+          </Nav>
         </div>
         <Button
         width={'7.125rem'}

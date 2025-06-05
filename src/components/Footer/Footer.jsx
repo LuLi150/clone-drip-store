@@ -125,6 +125,7 @@ export const Footer = () => {
           </li>
           </Nav>
         </div>
+        <hr/>
       </div>
     </Footer>
   )

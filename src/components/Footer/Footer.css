@@ -5,5 +5,51 @@
 }
 
 footer .box-footer{
-  width: 100%;
+  width:90rem;
+  height: 28.375rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+.box-logo-pai{
+  margin: 4.5rem 0 0 6.5rem;
+  width: 19.1875rem;
+  height: 13.625rem;
+}
+
+.box-logo{
+  width: 15.813rem;
+  height: 2.75rem;
+  margin: 0 0 0 0;
+}
+
+p{
+  width: 19.188rem;
+  height: 4.875rem;
+  margin: 2.1875rem 0 0 0;
+  color: white;
+  font-size: 1.01rem;
+}
+
+.logo-icons{
+  width: 7.7575rem;
+  height: 1.283125rem;
+  margin: 2.5rem 0 0 0;
+  display: flex;
+  gap: 2.2rem;
+}
+
+.box-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.box-categoria{
+  display: flex;
+  flex-direction: column;
+}
+
+.box-contato{
+  display: flex;
+  flex-direction: column;
 }
